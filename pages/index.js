@@ -3,6 +3,11 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
+
+  function addCard() {
+    // code...
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -12,7 +17,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <button type="button" onClick={}>Submit</button>
+        <button type="button" onClick={addCard}>Add Card</button>
       </main>
 
       <footer className={styles.footer}>
